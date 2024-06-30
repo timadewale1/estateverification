@@ -1,0 +1,79 @@
+/* Styles scoped to UserDashboard component */
+.dashboard-container {
+  font-family: Arial, sans-serif;
+  background-color: #004d40;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw; /* Ensure the background color covers the full width */
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 20px;
+}
+
+.home-icon a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 400px;
+  align-items: center;
+}
+
+.dashboard-button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #26a69a;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.dashboard-button:hover {
+  background-color: #1e8579;
+}
+
+.toast-container {
+  width: 100%;
+}
+
+/* Background Circles */
+.dashboard-container::before,
+.dashboard-container::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dashboard-container::before {
+  width: 200px;
+  height: 200px;
+  top: -50px;
+  left: -50px;
+}
+
+.dashboard-container::after {
+  width: 150px;
+  height: 150px;
+  bottom: 50px;
+  right: 50px;
+}
