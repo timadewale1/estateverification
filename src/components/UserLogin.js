@@ -35,7 +35,7 @@ const UserLogin = () => {
       <ToastContainer />
       {error && <p className="error-message">{error}</p>}
       <form className="login-form" onSubmit={handleLogin}>
-        <a href="/admin-login" className="admin-link">
+        <a href="/admin" className="admin-link">
           Admin
         </a>
         <input

@@ -38,7 +38,7 @@ const CaptureVisitorImage = () => {
         imageUrl: url,
         code: verifiedCode,
         userId: user.uid,
-        userName: userDetails.name,
+        userName: userDetails.userName,
         userHouseNumber: userDetails.houseNumber,
         visitorName: visitorName,
         timestamp: new Date(),
