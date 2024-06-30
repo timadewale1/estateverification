@@ -69,8 +69,9 @@ p {
 }
 
 .login button:hover {
-  background-color: transparent;
-  color: #00332e;
+  background-color: #00332e;
+
+  color: #fff;
 }
 
 /* Responsive Styles */
